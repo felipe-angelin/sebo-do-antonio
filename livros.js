@@ -46,7 +46,8 @@ window.LIVROS = [
   "idade": "7–10 anos",
   "preco": 5,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Aventura cheia de monstros e humor do austríaco Thomas Brezina, autor de várias séries de mistério para crianças."
  },
  {
   "codigo": "L005",
@@ -129,7 +130,8 @@ window.LIVROS = [
   "idade": "6–9 anos",
   "preco": 27.96,
   "precoNovo": 55.92,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Mais uma aventura divertida e assustadora da menina zumbi e sua turma no Palacete Decrépito."
  },
  {
   "codigo": "L012",
@@ -320,7 +322,8 @@ window.LIVROS = [
   "idade": "5–8 anos",
   "preco": 42.45,
   "precoNovo": 84.9,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Gilda visita um museu e conhece obras de artistas brasileiros."
  },
  {
   "codigo": "L028",
@@ -343,7 +346,8 @@ window.LIVROS = [
   "idade": "5–8 anos",
   "preco": 6,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Coletânea de pequenos contos."
  },
  {
   "codigo": "L030",
@@ -354,7 +358,8 @@ window.LIVROS = [
   "idade": "8–12 anos",
   "preco": 26.45,
   "precoNovo": 52.9,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Mostra a matemática escondida em obras de arte, como formas, proporções e simetria."
  },
  {
   "codigo": "L031",
@@ -413,7 +418,8 @@ window.LIVROS = [
   "idade": "5–8 anos",
   "preco": 12,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "História divertida sobre uma festa do pijama entre amigos."
  },
  {
   "codigo": "L036",
@@ -592,7 +598,8 @@ window.LIVROS = [
   "idade": "5–8 anos",
   "preco": 9.75,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Historinha curta de Sonia Junqueira para crianças que estão começando a ler."
  },
  {
   "codigo": "L051",
@@ -603,7 +610,8 @@ window.LIVROS = [
   "idade": "3–6 anos",
   "preco": 14.45,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "História divertida sobre a hora de dormir, da alemã Susanne Strasser."
  },
  {
   "codigo": "L052",
@@ -614,7 +622,8 @@ window.LIVROS = [
   "idade": "3–7 anos",
   "preco": 17,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Rita Lee conta a história de uma ursa e fala sobre respeito e cuidado com os animais."
  },
  {
   "codigo": "L053",
@@ -637,7 +646,8 @@ window.LIVROS = [
   "idade": "3–7 anos",
   "preco": 31.45,
   "precoNovo": 62.9,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Livro com o elefante Gildo, personagem querido de Silvana Rando."
  },
  {
   "codigo": "L055",
@@ -648,7 +658,8 @@ window.LIVROS = [
   "idade": "5–9 anos",
   "preco": 25.08,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Livro com peças para montar um dinossauro e aprender sobre ele."
  },
  {
   "codigo": "L056",
@@ -683,7 +694,8 @@ window.LIVROS = [
   "idade": "6–9 anos",
   "preco": 3.6,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Livro em inglês, aparentemente personalizado com o nome de uma criança."
  },
  {
   "codigo": "L059",
@@ -1090,7 +1102,8 @@ window.LIVROS = [
   "idade": "4–8 anos",
   "preco": 26.21,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Um menino percebe que a alegria sumiu do seu vilarejo e sobe a montanha mais alta para modelar as nuvens e trazer o sorriso de volta."
  },
  {
   "codigo": "L093",
@@ -1125,7 +1138,8 @@ window.LIVROS = [
   "idade": "3–8 anos",
   "preco": 16.46,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Livro sobre a relação entre mãe e filho."
  },
  {
   "codigo": "L096",
@@ -1136,7 +1150,8 @@ window.LIVROS = [
   "idade": "4–8 anos",
   "preco": 24.0,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Livro que apresenta as partes do corpo de forma divertida."
  },
  {
   "codigo": "L097",

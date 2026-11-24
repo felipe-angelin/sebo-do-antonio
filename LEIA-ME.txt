@@ -1,0 +1,33 @@
+SEBO ONLINE — como mexer no site
+=================================
+
+ARQUIVOS
+  index.html  -> a página
+  style.css   -> cores e visual
+  app.js      -> funcionamento (no topo: nome da loja e número do WhatsApp)
+  livros.js   -> a lista de livros (título, autor, preço, vendido)
+  capas/      -> fotos das capas (L001.jpg, L002.jpg...)
+
+TROCAR NOME / WHATSAPP
+  Abra app.js e edite o bloco CONFIG no começo:
+    nome: "Sebo do Antônio",
+    whatsapp: "5511999998888",   <- 55 + DDD + número, só dígitos
+
+MARCAR UM LIVRO COMO VENDIDO
+  Em livros.js, ache o livro e troque  "vendido": false  por  "vendido": true
+  Ele continua aparecendo com a faixa VENDIDO, no fim da lista.
+  (Para sumir de vez, apague o bloco { ... } do livro.)
+
+DAR PREÇO A UM LIVRO "A CONSULTAR"
+  Em livros.js troque  "preco": null  por  "preco": 25.00  (ponto, não vírgula)
+
+ADICIONAR LIVRO NOVO
+  1. Coloque a foto em capas/ com um código novo, ex.: L099.jpg
+  2. Copie um bloco { ... } em livros.js, mude "codigo" para "L099" e preencha.
+
+PUBLICAR DE GRAÇA (Netlify Drop)
+  1. Entre em https://app.netlify.com/drop e crie uma conta grátis.
+  2. Arraste esta pasta inteira (a pasta "site") para a página.
+  3. Pronto: sai um endereço tipo  nome-qualquer.netlify.app  (dá para renomear
+     em Site configuration > Change site name).
+  Para atualizar depois: no painel do site, aba Deploys, arraste a pasta de novo.

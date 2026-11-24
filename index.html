@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sebo do Antônio — livros infantis usados</title>
+<meta name="description" content="Livros infantis usados, conservados e com preço camarada. Escolha, monte sua sacola e finalize pelo WhatsApp.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topo">
+  <div class="topo-in">
+    <a class="marca" href="#">
+      <span class="marca-icone" aria-hidden="true">📚</span>
+      <span class="marca-nome" id="nomeLoja">Sebo do Antônio</span>
+    </a>
+    <button class="btn-sacola" id="abrirSacola" aria-label="Abrir sacola">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M7 7V6a5 5 0 0 1 10 0v1h3l-1 14H5L4 7h3Zm2 0h6V6a3 3 0 0 0-6 0v1Z"/></svg>
+      Sacola <span class="contador" id="contador">0</span>
+    </button>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-in">
+    <h1>Livros infantis usados,<br><em>com história pra contar.</em></h1>
+    <p id="heroTexto">Livros conservados, um de cada. Escolha os seus, monte a sacola e finalize a compra pelo WhatsApp.</p>
+    <ul class="selos">
+      <li><strong id="qtdLivros">—</strong> livros disponíveis</li>
+      <li>Pagamento por Pix</li>
+      <li id="seloEntrega">Retirada ou envio</li>
+    </ul>
+  </div>
+</section>
+
+<main class="conteudo">
+  <div class="filtros">
+    <label class="busca">
+      <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M10 2a8 8 0 0 1 6.3 12.9l5.4 5.4-1.4 1.4-5.4-5.4A8 8 0 1 1 10 2Zm0 2a6 6 0 1 0 0 12 6 6 0 0 0 0-12Z"/></svg>
+      <input id="busca" type="search" placeholder="Buscar por título, autor ou editora" autocomplete="off">
+    </label>
+    <div class="chips" id="chipsIdade" role="group" aria-label="Filtrar por idade"></div>
+    <div class="linha-ordem">
+      <span id="resultado" class="resultado"></span>
+      <select id="ordem" aria-label="Ordenar">
+        <option value="titulo">Ordem alfabética</option>
+        <option value="menor">Menor preço</option>
+        <option value="maior">Maior preço</option>
+        <option value="idade">Idade</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="grade" id="grade"></div>
+  <p class="vazio" id="vazio" hidden>Nenhum livro encontrado. Tente outra busca.</p>
+</main>
+
+<section class="como">
+  <h2>Como comprar</h2>
+  <ol>
+    <li><strong>Escolha</strong> os livros e toque em “Quero este”.</li>
+    <li><strong>Abra a sacola</strong> e toque em “Finalizar pelo WhatsApp”.</li>
+    <li><strong>Combine</strong> pagamento (Pix) e entrega direto comigo.</li>
+  </ol>
+  <p class="nota">Cada livro é exemplar único. A reserva vale quando eu confirmar pelo WhatsApp.</p>
+</section>
+
+<footer class="rodape">
+  <p><span id="nomeRodape">Sebo do Antônio</span> · <a id="linkZap" href="#" target="_blank" rel="noopener">Fale no WhatsApp</a></p>
+</footer>
+
+<!-- Sacola -->
+<div class="fundo" id="fundo" hidden></div>
+<aside class="sacola" id="sacola" aria-hidden="true" aria-label="Sacola">
+  <div class="sacola-topo">
+    <h2>Sua sacola</h2>
+    <button class="fechar" id="fecharSacola" aria-label="Fechar">×</button>
+  </div>
+  <ul class="sacola-lista" id="sacolaLista"></ul>
+  <p class="sacola-vazia" id="sacolaVazia">Sua sacola está vazia.</p>
+  <div class="sacola-rodape">
+    <div class="total"><span>Total</span><strong id="total">R$ 0,00</strong></div>
+    <p class="obs" id="obsConsulta" hidden>Livros “a consultar” não entram no total.</p>
+    <button class="btn-zap" id="finalizar">
+      <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18a8 8 0 0 1-4.1-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8 8 0 1 1 12 20Zm4.4-6c-.2-.1-1.4-.7-1.7-.8-.2-.1-.4-.1-.5.1l-.8.9c-.1.2-.3.2-.5.1a6.5 6.5 0 0 1-3.2-2.8c-.2-.4.2-.4.7-1.2.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.5-.4h-.5a.9.9 0 0 0-.6.3 2.7 2.7 0 0 0-.9 2c0 1.2.9 2.4 1 2.5.1.2 1.7 2.6 4.2 3.7 1.6.7 2.2.7 3 .6.5-.1 1.4-.6 1.6-1.1.2-.6.2-1 .1-1.1l-.6-.3Z"/></svg>
+      Finalizar pelo WhatsApp
+    </button>
+  </div>
+</aside>
+
+<!-- Detalhe do livro -->
+<dialog class="detalhe" id="detalhe">
+  <button class="fechar" id="fecharDetalhe" aria-label="Fechar">×</button>
+  <div class="detalhe-in" id="detalheConteudo"></div>
+</dialog>
+
+<div class="aviso" id="aviso" role="status" aria-live="polite"></div>
+
+<script src="livros.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

@@ -486,12 +486,12 @@ window.LIVROS = [
  },
  {
   "codigo": "L045",
-  "titulo": "Dicionário da fazenda",
+  "titulo": "Bichonário da fazenda",
   "autor": "Ana Kessler",
   "ilustrador": "John Joven",
   "editora": "Lafonte",
   "idade": "3–6 anos",
-  "preco": null,
+  "preco": 11.98,
   "precoNovo": null,
   "vendido": false
  },
@@ -601,7 +601,7 @@ window.LIVROS = [
   "ilustrador": null,
   "editora": "Happy Books",
   "idade": "5–9 anos",
-  "preco": null,
+  "preco": 25.08,
   "precoNovo": null,
   "vendido": false
  },
@@ -634,7 +634,7 @@ window.LIVROS = [
   "ilustrador": null,
   "editora": "Red Balloon",
   "idade": "6–9 anos",
-  "preco": null,
+  "preco": 3.6,
   "precoNovo": null,
   "vendido": false
  },
@@ -733,7 +733,7 @@ window.LIVROS = [
   "ilustrador": null,
   "editora": "Usborne",
   "idade": "3–6 anos",
-  "preco": null,
+  "preco": 17.0,
   "precoNovo": null,
   "vendido": false
  },
@@ -876,7 +876,7 @@ window.LIVROS = [
   "ilustrador": null,
   "editora": "Ciranda Cultural",
   "idade": "1–4 anos",
-  "preco": null,
+  "preco": 10.38,
   "precoNovo": null,
   "vendido": false
  },
@@ -909,7 +909,7 @@ window.LIVROS = [
   "ilustrador": "Leonardo Malavazzi",
   "editora": "Pé da Letra",
   "idade": "3–7 anos",
-  "preco": null,
+  "preco": 6.0,
   "precoNovo": null,
   "vendido": false
  },
@@ -920,7 +920,7 @@ window.LIVROS = [
   "ilustrador": null,
   "editora": "Lafonte",
   "idade": "6–10 anos",
-  "preco": null,
+  "preco": 71.4,
   "precoNovo": null,
   "vendido": false
  },
@@ -1008,7 +1008,7 @@ window.LIVROS = [
   "ilustrador": "Toni D'Agostinho",
   "editora": null,
   "idade": "4–8 anos",
-  "preco": null,
+  "preco": 26.21,
   "precoNovo": null,
   "vendido": false
  },

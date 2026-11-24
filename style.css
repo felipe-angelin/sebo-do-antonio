@@ -164,6 +164,7 @@ a{color:var(--coral-2)}
 .detalhe-in img{width:100%;height:100%;max-height:80vh;object-fit:contain;background:var(--ceu-2)}
 .detalhe-txt{padding:28px 26px;display:flex;flex-direction:column;gap:8px}
 .detalhe-txt h3{font-family:var(--titulo);font-weight:700;font-size:28px;line-height:1.1;margin:0 0 6px}
+.detalhe-txt .descricao{margin:0 0 4px;font-size:15px;line-height:1.5;color:var(--tinta);background:#fff;border-radius:14px;padding:12px 14px;border:2px dashed var(--linha)}
 .detalhe-txt dl{display:grid;grid-template-columns:auto 1fr;gap:4px 14px;margin:8px 0;font-size:14px}
 .detalhe-txt dt{color:var(--tinta-2)}
 .detalhe-txt dd{margin:0;font-weight:700}

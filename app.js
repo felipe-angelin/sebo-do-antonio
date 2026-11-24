@@ -66,7 +66,7 @@ function filtrados() {
   const lista = livros.filter((l) => {
     if (!faixa.teste(l)) return false;
     if (!q) return true;
-    return semAcento([l.titulo, l.autor, l.ilustrador, l.editora].join(" ")).includes(q);
+    return semAcento([l.titulo, l.autor, l.ilustrador, l.editora, l.descricao].join(" ")).includes(q);
   });
   const precoOu = (l, v) => (l.preco == null ? v : l.preco);
   const ord = {
@@ -194,6 +194,7 @@ function abrirDetalhe(codigo) {
     <img src="capas/${l.codigo}.jpg" alt="Capa de ${esc(l.titulo)}">
     <div class="detalhe-txt">
       <h3>${esc(l.titulo)}</h3>
+      ${l.descricao ? `<p class="descricao">${esc(l.descricao)}</p>` : ""}
       <dl>
         ${linha("Autor", l.autor)}
         ${linha("Ilustração", l.ilustrador)}

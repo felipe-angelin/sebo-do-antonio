@@ -1,4 +1,5 @@
 // Lista de livros. Para marcar um livro como vendido, troque "vendido": false por "vendido": true.
+// "descricao" é o texto que aparece ao abrir o livro. Pode editar ou acrescentar.
 window.LIVROS = [
  {
   "codigo": "L001",
@@ -9,7 +10,8 @@ window.LIVROS = [
   "idade": "3–6 anos",
   "preco": 49.95,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Livro com abas que mostra casinhas de passarinho de vários tipos, como elas protegem as aves e como deixar o quintal mais amigo dos pássaros."
  },
  {
   "codigo": "L002",
@@ -20,7 +22,8 @@ window.LIVROS = [
   "idade": "9–12 anos",
   "preco": 29.71,
   "precoNovo": 59.43,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Amanda tem um amigo imaginário chamado Rudger. Quando um homem misterioso começa a caçar amigos imaginários, os dois precisam fugir. Aventura com um pouco de suspense e ilustrações de Emily Gravett."
  },
  {
   "codigo": "L003",
@@ -31,7 +34,8 @@ window.LIVROS = [
   "idade": "6–9 anos",
   "preco": 33.95,
   "precoNovo": 67.9,
-  "vendido": false
+  "vendido": false,
+  "descricao": "A jornalista Adriana Carranca conta a história real de Malala, que enfrentou o Talibã no Paquistão para defender o direito das meninas de estudar."
  },
  {
   "codigo": "L004",
@@ -53,7 +57,8 @@ window.LIVROS = [
   "idade": "8–12 anos",
   "preco": 37.45,
   "precoNovo": 74.9,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Clássico sobre a amizade entre o porquinho Wilbur e a aranha Charlotte, que escreve palavras na teia para salvar o amigo."
  },
  {
   "codigo": "L006",
@@ -64,7 +69,8 @@ window.LIVROS = [
   "idade": "7–10 anos",
   "preco": 32.45,
   "precoNovo": 64.9,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Oliver escreve um livro em forma de diário sobre evolução e explica, com desenhos e muito humor, como peixes, cães, cavalos e até pessoas mudaram ao longo do tempo."
  },
  {
   "codigo": "L007",
@@ -75,7 +81,8 @@ window.LIVROS = [
   "idade": "7–10 anos",
   "preco": 32.45,
   "precoNovo": 64.9,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Oliver e o amigo Sven querem vencer a feira de ciências. Com a ajuda de uma tia que estuda vulcões, ele aprende sobre a Terra entre muitas risadas."
  },
  {
   "codigo": "L008",
@@ -86,7 +93,8 @@ window.LIVROS = [
   "idade": "6–9 anos",
   "preco": 34.95,
   "precoNovo": 69.9,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Puffy é um gatinho de rua com um poder especial que não consegue um lar. Brunilda é uma bruxinha que precisa de um gato para o primeiro voo de vassoura. Os dois se encontram."
  },
  {
   "codigo": "L009",
@@ -97,7 +105,8 @@ window.LIVROS = [
   "idade": "6–9 anos",
   "preco": 34.95,
   "precoNovo": 69.9,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Mortina é uma menina zumbi que mora no Palacete Decrépito com a tia e o galgo Tristão. Ela só quer fazer amigos, mas precisa esconder quem é. Primeiro livro da série."
  },
  {
   "codigo": "L010",
@@ -108,7 +117,8 @@ window.LIVROS = [
   "idade": "6–9 anos",
   "preco": 19.5,
   "precoNovo": 39,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Num dia de chuva, o primo chato da Mortina aparece no palacete dizendo que foi convidado para um jantar surpresa. Depois chegam os amigos dela com a mesma história, e começa um mistério."
  },
  {
   "codigo": "L011",
@@ -130,7 +140,8 @@ window.LIVROS = [
   "idade": "6–9 anos",
   "preco": 34.95,
   "precoNovo": 69.9,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Mortina descobre que um bracelete abre uma passagem secreta na biblioteca, que pode revelar como sua família virou zumbi."
  },
  {
   "codigo": "L013",
@@ -141,7 +152,8 @@ window.LIVROS = [
   "idade": "6–9 anos",
   "preco": 17,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Um menino fantasma tenta entrar no palacete antes de uma festa, mas não lembra o próprio nome nem quem é. Mortina vai investigar."
  },
  {
   "codigo": "L014",
@@ -152,7 +164,8 @@ window.LIVROS = [
   "idade": "6–9 anos",
   "preco": 34.95,
   "precoNovo": 69.9,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Mortina e a família viajam para visitar a tia e o primo à beira do Lago do Mistério, e as férias viram uma aventura."
  },
  {
   "codigo": "L015",
@@ -163,7 +176,8 @@ window.LIVROS = [
   "idade": "3–7 anos",
   "preco": 18,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Um carteiro entrega cartas para personagens de contos de fadas. Cada página tem um envelope com uma carta de verdade para abrir e ler."
  },
  {
   "codigo": "L016",
@@ -174,7 +188,8 @@ window.LIVROS = [
   "idade": "4–8 anos",
   "preco": 18.87,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Paulo Roberto constrói desde bebê, mas a professora não gosta de arquitetura. Num passeio, a turma fica presa e ele usa o talento para salvar todo mundo. Texto em rimas."
  },
  {
   "codigo": "L017",
@@ -185,7 +200,8 @@ window.LIVROS = [
   "idade": "5–8 anos",
   "preco": 49.95,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Depois que o avô se machuca num lixão do bairro, Sofia decide transformar o lugar em parque e descobre que uma criança pode mudar a sua comunidade."
  },
  {
   "codigo": "L018",
@@ -196,7 +212,8 @@ window.LIVROS = [
   "idade": "5–8 anos",
   "preco": 21,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Marcelo Xavier imagina como seria o mundo se as crianças estivessem no comando. Um convite para pensar sobre regras, direitos e sonhos."
  },
  {
   "codigo": "L019",
@@ -207,7 +224,8 @@ window.LIVROS = [
   "idade": "6–10 anos",
   "preco": 19.95,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Pai e filho, José Jorge e André Letria, imaginam o que um livro diria se pudesse falar. Uma homenagem poética aos livros e aos leitores."
  },
  {
   "codigo": "L020",
@@ -218,7 +236,8 @@ window.LIVROS = [
   "idade": "6–9 anos",
   "preco": 7.5,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Conta a infância de Leonardo da Vinci, um menino curioso que desenhava tudo o que via e que se tornou um dos maiores gênios da história."
  },
  {
   "codigo": "L021",
@@ -229,7 +248,8 @@ window.LIVROS = [
   "idade": "6–9 anos",
   "preco": 19.95,
   "precoNovo": 39.9,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Conta a infância do poeta e compositor Vinicius de Moraes e mostra como nasceu seu gosto pelas palavras e pela música."
  },
  {
   "codigo": "L022",
@@ -240,7 +260,8 @@ window.LIVROS = [
   "idade": "2–5 anos",
   "preco": 24.95,
   "precoNovo": 49.9,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Livro grande e ilustrado para os pequenos conhecerem os animais e seus nomes."
  },
  {
   "codigo": "L023",
@@ -251,7 +272,8 @@ window.LIVROS = [
   "idade": "6–10 anos",
   "preco": 14.95,
   "precoNovo": 29.9,
-  "vendido": false
+  "vendido": false,
+  "descricao": "O romance de Victor Hugo recontado com os personagens da Disney, numa versão curta e ilustrada para crianças."
  },
  {
   "codigo": "L024",
@@ -262,7 +284,8 @@ window.LIVROS = [
   "idade": "3–6 anos",
   "preco": 28.6,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Livro com abas que mostra onde os insetos vivem e como montar um \"hotel de insetos\" no jardim."
  },
  {
   "codigo": "L025",
@@ -273,7 +296,8 @@ window.LIVROS = [
   "idade": "7–10 anos",
   "preco": 43,
   "precoNovo": 86,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Da coleção A Descoberta da Matemática. Uma história em que os personagens usam a multiplicação para resolver problemas do dia a dia."
  },
  {
   "codigo": "L026",
@@ -284,7 +308,8 @@ window.LIVROS = [
   "idade": "4–8 anos",
   "preco": 24.95,
   "precoNovo": 49.9,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Um grupo de crianças monta armadilhas cada vez mais malucas para pegar a fada do dente, que sempre escapa. Texto rimado e engraçado."
  },
  {
   "codigo": "L027",
@@ -306,7 +331,8 @@ window.LIVROS = [
   "idade": "9–12 anos",
   "preco": 14.95,
   "precoNovo": 29.9,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Sherlock e Watson investigam o caso de uma mulher suspeita de ser vampira. Versão ilustrada de um dos contos de Arthur Conan Doyle."
  },
  {
   "codigo": "L029",
@@ -339,7 +365,8 @@ window.LIVROS = [
   "idade": "7–10 anos",
   "preco": 14,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Catapimba recebe balas de troco na cantina e resolve pagar as coisas com objetos. Ruth Rocha fala, com humor, sobre o que é dinheiro."
  },
  {
   "codigo": "L032",
@@ -350,7 +377,8 @@ window.LIVROS = [
   "idade": "7–10 anos",
   "preco": 11,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Da série Agência de Detetives Lasse e Maia. Os dois amigos investigam coisas que estão sumindo na escola."
  },
  {
   "codigo": "L033",
@@ -361,7 +389,8 @@ window.LIVROS = [
   "idade": "6–9 anos",
   "preco": 12.5,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Clássico de Ruth Rocha sobre um menino que acha os nomes das coisas sem sentido e resolve inventar os seus."
  },
  {
   "codigo": "L034",
@@ -372,7 +401,8 @@ window.LIVROS = [
   "idade": "7–10 anos",
   "preco": 12,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Pilar e o amigo Breno viajam numa rede mágica até a Grécia Antiga e encontram deuses e heróis da mitologia."
  },
  {
   "codigo": "L035",
@@ -394,7 +424,8 @@ window.LIVROS = [
   "idade": "3–6 anos",
   "preco": 9,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Um livro que implora para não ser aberto. Quanto mais a criança vira as páginas, mais o personagem se desespera. Muito engraçado para ler em voz alta."
  },
  {
   "codigo": "L037",
@@ -405,7 +436,8 @@ window.LIVROS = [
   "idade": "3–6 anos",
   "preco": 6.5,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "O primeiro da série. Um monstrinho pede para a criança parar de virar as páginas, e cada página é uma nova tentativa de impedir a leitura."
  },
  {
   "codigo": "L038",
@@ -416,7 +448,8 @@ window.LIVROS = [
   "idade": "3–6 anos",
   "preco": 17.75,
   "precoNovo": 35.51,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Mais uma aventura da série em que o livro faz de tudo para não ser lido."
  },
  {
   "codigo": "L039",
@@ -427,7 +460,8 @@ window.LIVROS = [
   "idade": "3–6 anos",
   "preco": 7.5,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Continuação da série, com novas armadilhas para o leitor que insiste em virar as páginas."
  },
  {
   "codigo": "L040",
@@ -438,7 +472,8 @@ window.LIVROS = [
   "idade": "3–6 anos",
   "preco": 17.75,
   "precoNovo": 35.51,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Mais um da série, com o mesmo humor interativo para ler junto com os pequenos."
  },
  {
   "codigo": "L041",
@@ -449,7 +484,8 @@ window.LIVROS = [
   "idade": "1–4 anos",
   "preco": 29.65,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "O monstrinho Mordisco vive mordendo os livros. Com páginas recortadas e cheias de cor, ensina as cores de forma divertida."
  },
  {
   "codigo": "L042",
@@ -460,7 +496,8 @@ window.LIVROS = [
   "idade": "2–5 anos",
   "preco": 29.95,
   "precoNovo": 59.9,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Ela já é grande e faz um monte de coisas sozinha. Mas será que já sabe tudo?"
  },
  {
   "codigo": "L043",
@@ -471,7 +508,8 @@ window.LIVROS = [
   "idade": "5–9 anos",
   "preco": 11.5,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Da autora da Disciplina Positiva. Um menino aprende a criar um cantinho especial para se acalmar quando fica nervoso."
  },
  {
   "codigo": "L044",
@@ -482,7 +520,8 @@ window.LIVROS = [
   "idade": "3–6 anos",
   "preco": 9.95,
   "precoNovo": 19.9,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Um passeio pela natureza no outono, procurando folhas, frutos e bichos da estação."
  },
  {
   "codigo": "L045",
@@ -493,7 +532,8 @@ window.LIVROS = [
   "idade": "3–6 anos",
   "preco": 11.98,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Um dicionário divertido e ilustrado com os bichos da fazenda, de Ana Kessler e John Joven."
  },
  {
   "codigo": "L046",
@@ -504,7 +544,8 @@ window.LIVROS = [
   "idade": "3–6 anos",
   "preco": 9.97,
   "precoNovo": 19.94,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Ajuda a criança a entender a raiva e encontrar jeitos saudáveis de lidar com ela."
  },
  {
   "codigo": "L047",
@@ -515,7 +556,8 @@ window.LIVROS = [
   "idade": "6–9 anos",
   "preco": 19.95,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Clara Luz é uma fadinha que se recusa a seguir o livro de mágicas e inventa as próprias. Clássico de Fernanda Lopes de Almeida sobre criatividade."
  },
  {
   "codigo": "L048",
@@ -526,7 +568,8 @@ window.LIVROS = [
   "idade": "1–4 anos",
   "preco": 28.27,
   "precoNovo": 56.53,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Livro cartonado em inglês que apresenta o Sol e os planetas aos pequenos."
  },
  {
   "codigo": "L049",
@@ -537,7 +580,8 @@ window.LIVROS = [
   "idade": "3–7 anos",
   "preco": 5,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Coletânea de histórias curtas para ler na hora de dormir."
  },
  {
   "codigo": "L050",
@@ -581,7 +625,8 @@ window.LIVROS = [
   "idade": "4–8 anos",
   "preco": 5,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Ajuda a criança a entender a saudade quando alguém querido está longe e mostra jeitos de se sentir melhor."
  },
  {
   "codigo": "L054",
@@ -614,7 +659,8 @@ window.LIVROS = [
   "idade": "7–11 anos",
   "preco": 12.5,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Sete histórias com os bichinhos do bosque. Cada uma ensina um hábito, como ser responsável, planejar e ouvir os outros."
  },
  {
   "codigo": "L057",
@@ -625,7 +671,8 @@ window.LIVROS = [
   "idade": "5–9 anos",
   "preco": 21.32,
   "precoNovo": 42.63,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Um alfabeto de verbos, de A a Z, com ilustrações que mostram cada ação."
  },
  {
   "codigo": "L058",
@@ -647,7 +694,8 @@ window.LIVROS = [
   "idade": "4–8 anos",
   "preco": 14.95,
   "precoNovo": 29.9,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Livro de atividades para pai e filho preencherem juntos, com perguntas, desenhos e lembranças."
  },
  {
   "codigo": "L060",
@@ -658,7 +706,8 @@ window.LIVROS = [
   "idade": "3–7 anos",
   "preco": 19.9,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "O elefante Gildo ganha uma irmãzinha e precisa aprender a dividir a atenção da família."
  },
  {
   "codigo": "L061",
@@ -669,7 +718,8 @@ window.LIVROS = [
   "idade": "3–6 anos",
   "preco": 37.22,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Em inglês. Pig, um pug mimado, quer ganhar tudo e trapaceia, até aprender a lição."
  },
  {
   "codigo": "L062",
@@ -680,7 +730,8 @@ window.LIVROS = [
   "idade": "3–6 anos",
   "preco": 12.11,
   "precoNovo": 24.22,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Bluey e Bingo brincam de escolinha para aprender a ser mãe, numa história baseada no desenho."
  },
  {
   "codigo": "L063",
@@ -691,7 +742,8 @@ window.LIVROS = [
   "idade": "4–8 anos",
   "preco": 5,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Josias vira motivo de risada na escola e quer se esconder. Num acampamento com o pai, conhece Estela, uma estrelinha que também escondia sua luz."
  },
  {
   "codigo": "L064",
@@ -702,7 +754,8 @@ window.LIVROS = [
   "idade": "7–11 anos",
   "preco": 9.95,
   "precoNovo": 19.9,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Um mapa para cada estado, com capital, população, história e tradições populares."
  },
  {
   "codigo": "L065",
@@ -713,7 +766,8 @@ window.LIVROS = [
   "idade": "5–9 anos",
   "preco": 1.45,
   "precoNovo": 2.9,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Explica os Dez Mandamentos com linguagem simples e ilustrações."
  },
  {
   "codigo": "L066",
@@ -724,7 +778,8 @@ window.LIVROS = [
   "idade": "3–6 anos",
   "preco": 16.25,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Livro com abas que responde às perguntas das crianças sobre o sono."
  },
  {
   "codigo": "L067",
@@ -735,7 +790,8 @@ window.LIVROS = [
   "idade": "3–6 anos",
   "preco": 17.0,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Livro ilustrado com 199 coisas para achar e nomear na praia: bichos, objetos e paisagens."
  },
  {
   "codigo": "L068",
@@ -746,7 +802,8 @@ window.LIVROS = [
   "idade": "7–11 anos",
   "preco": 7.45,
   "precoNovo": 14.9,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Apresenta a palavra que define a aversão às pessoas pobres e convida a criança a pensar sobre preconceito e empatia."
  },
  {
   "codigo": "L069",
@@ -757,7 +814,8 @@ window.LIVROS = [
   "idade": "8–12 anos",
   "preco": 7.5,
   "precoNovo": 15,
-  "vendido": false
+  "vendido": false,
+  "descricao": "O clássico de Saint Exupéry sobre um principezinho que viaja por vários planetas e ensina sobre amizade e o que é essencial."
  },
  {
   "codigo": "L070",
@@ -768,7 +826,8 @@ window.LIVROS = [
   "idade": "5–8 anos",
   "preco": 14.95,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Da coleção de Sônia Junqueira para quem está aprendendo a ler, com texto curto e frases simples."
  },
  {
   "codigo": "L071",
@@ -779,7 +838,8 @@ window.LIVROS = [
   "idade": "5–8 anos",
   "preco": 22.5,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Da mesma coleção, com historinha curta e brincadeiras com os sons das palavras."
  },
  {
   "codigo": "L072",
@@ -790,7 +850,8 @@ window.LIVROS = [
   "idade": "5–8 anos",
   "preco": 12.45,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Da mesma coleção, com rimas divertidas para os primeiros leitores."
  },
  {
   "codigo": "L073",
@@ -801,7 +862,8 @@ window.LIVROS = [
   "idade": "5–8 anos",
   "preco": 20.62,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Da mesma coleção, com uma historinha curta e engraçada para quem está começando a ler."
  },
  {
   "codigo": "L074",
@@ -812,7 +874,8 @@ window.LIVROS = [
   "idade": "1–4 anos",
   "preco": 8.49,
   "precoNovo": 16.99,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Livro cartonado que ensina os pequenos a importância da gentileza no dia a dia."
  },
  {
   "codigo": "L075",
@@ -823,7 +886,8 @@ window.LIVROS = [
   "idade": "1–4 anos",
   "preco": 9.95,
   "precoNovo": 19.9,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Livro para os pequenos conhecerem as vogais com imagens e palavras."
  },
  {
   "codigo": "L076",
@@ -834,7 +898,8 @@ window.LIVROS = [
   "idade": "3–6 anos",
   "preco": 13.11,
   "precoNovo": 26.22,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Livro sobre o espaço com imagens escondidas que aparecem quando se coloca a luz do celular atrás da página."
  },
  {
   "codigo": "L077",
@@ -845,7 +910,8 @@ window.LIVROS = [
   "idade": "4–8 anos",
   "preco": 5.5,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "A oração do Pai Nosso explicada frase por frase, com ilustrações para as crianças."
  },
  {
   "codigo": "L078",
@@ -856,7 +922,8 @@ window.LIVROS = [
   "idade": "7–11 anos",
   "preco": 8.95,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Experiências, curiosidades e desafios dos criadores do canal Manual do Mundo."
  },
  {
   "codigo": "L079",
@@ -867,7 +934,8 @@ window.LIVROS = [
   "idade": "3–6 anos",
   "preco": 5,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Uma luva se sente vazia e sai em busca de algo que a preencha. Uma história com mensagem cristã."
  },
  {
   "codigo": "L080",
@@ -878,7 +946,8 @@ window.LIVROS = [
   "idade": "1–4 anos",
   "preco": 10.38,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Livro cartonado para bebês com o gato Guto e sua turma de bichinhos."
  },
  {
   "codigo": "L081",
@@ -889,7 +958,8 @@ window.LIVROS = [
   "idade": "3–7 anos",
   "preco": 14.31,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Ajuda a criança a entender a tristeza e mostra que é normal sentir e falar sobre ela."
  },
  {
   "codigo": "L082",
@@ -900,7 +970,8 @@ window.LIVROS = [
   "idade": "3–7 anos",
   "preco": 24.06,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Ajuda a criança a reconhecer o que a deixa feliz e a compartilhar essa alegria."
  },
  {
   "codigo": "L083",
@@ -911,7 +982,8 @@ window.LIVROS = [
   "idade": "3–7 anos",
   "preco": 6.0,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Ajuda a criança a entender o medo e mostra maneiras de enfrentá-lo."
  },
  {
   "codigo": "L084",
@@ -922,7 +994,8 @@ window.LIVROS = [
   "idade": "6–10 anos",
   "preco": 71.4,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Histórias de Monteiro Lobato com Narizinho, Pedrinho, Emília e a turma do Sítio."
  },
  {
   "codigo": "L085",
@@ -933,7 +1006,8 @@ window.LIVROS = [
   "idade": "7–12 anos",
   "preco": 6.0,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Fatos curiosos sobre o futebol, os craques e as Copas do Mundo."
  },
  {
   "codigo": "L086",
@@ -944,7 +1018,8 @@ window.LIVROS = [
   "idade": "2–4 anos",
   "preco": 8.75,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Ajuda a criança na hora de largar a fralda e começar a usar o penico."
  },
  {
   "codigo": "L087",
@@ -955,7 +1030,8 @@ window.LIVROS = [
   "idade": "6–10 anos",
   "preco": 6.0,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Ricardo Azevedo reúne quadrinhas, adivinhas, parlendas e contos da cultura popular brasileira."
  },
  {
   "codigo": "L088",
@@ -966,7 +1042,8 @@ window.LIVROS = [
   "idade": "3–7 anos",
   "preco": 6.95,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "O elefante faz uma festa de despedida e tira uma foto com os convidados de costas. Na hora, aparece um rabinho estranho. De quem será?"
  },
  {
   "codigo": "L089",
@@ -977,7 +1054,8 @@ window.LIVROS = [
   "idade": "3–7 anos",
   "preco": 14.19,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Com ilustrações de animais, mostra aos pequenos que o amor de Deus é maior do que se pode imaginar."
  },
  {
   "codigo": "L090",
@@ -988,7 +1066,8 @@ window.LIVROS = [
   "idade": "1–4 anos",
   "preco": 49.9,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Livro cartonado para os pequenos conhecerem os animais da fazenda."
  },
  {
   "codigo": "L091",
@@ -999,7 +1078,8 @@ window.LIVROS = [
   "idade": "2–5 anos",
   "preco": 17.05,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Livro de procurar e encontrar bichos e objetos na fazenda."
  },
  {
   "codigo": "L092",
@@ -1021,7 +1101,8 @@ window.LIVROS = [
   "idade": "3–6 anos",
   "preco": 7.37,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Bluey não quer dormir e finge ser um morcego, numa história baseada no desenho."
  },
  {
   "codigo": "L094",
@@ -1032,7 +1113,8 @@ window.LIVROS = [
   "idade": "6–12 anos",
   "preco": 45.85,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Edição comemorativa dos 60 anos da Mônica, com histórias da personagem de Mauricio de Sousa."
  },
  {
   "codigo": "L095",
@@ -1065,7 +1147,8 @@ window.LIVROS = [
   "idade": "3–6 anos",
   "preco": 26.33,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Livro com abas que explica aos pequenos por que cuidar dos dentes."
  },
  {
   "codigo": "L098",
@@ -1076,6 +1159,7 @@ window.LIVROS = [
   "idade": "1–4 anos",
   "preco": 6.0,
   "precoNovo": null,
-  "vendido": false
+  "vendido": false,
+  "descricao": "Livro com quebra-cabeças de bichos de estimação para os pequenos montarem."
  }
 ];

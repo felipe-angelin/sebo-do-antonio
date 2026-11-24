@@ -83,6 +83,14 @@ a{color:var(--vinho)}
 .como h2{font-family:Fraunces,Georgia,serif;margin:0 0 12px}
 .como ol{margin:0;padding-left:20px;display:grid;gap:6px}
 .nota{color:var(--tinta-2);font-size:14px}
+.como h2#entrega{margin-top:26px}
+.entregas{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+.entrega{background:#fff;border:1px solid var(--linha);border-radius:var(--raio);padding:16px 18px;display:grid;gap:4px}
+.entrega strong{font-family:Fraunces,Georgia,serif;font-size:18px}
+.entrega span{color:var(--tinta-2)}
+.entrega.gratis{border-color:var(--verde);box-shadow:inset 4px 0 0 var(--verde)}
+.entrega.gratis b{color:var(--verde-2)}
+.sacola-entrega{margin:0 0 8px;font-size:13px;color:var(--tinta-2)}
 .rodape{background:var(--tinta);color:var(--papel-2);text-align:center;padding:22px 20px;font-size:14px}
 .rodape a{color:var(--mostarda)}
 

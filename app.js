@@ -3,7 +3,7 @@
 const CONFIG = {
   nome: "Sebo do Antônio",
   whatsapp: "5531971282574",
-  entrega: "Retirada ou envio",
+  entrega: "Entrega grátis no Planalto e Itapoã",
 };
 // ==================================================
 
@@ -179,7 +179,7 @@ $("#finalizar").addEventListener("click", () => {
     "",
     `Total: ${brl(total)}${itens.some((l) => l.preco == null) ? " (+ itens a consultar)" : ""}`,
     "",
-    "Como fazemos o pagamento e a entrega?",
+    "Meu bairro é: ",
   ].join("\n");
   window.open(`https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent(msg)}`, "_blank", "noopener");
 });

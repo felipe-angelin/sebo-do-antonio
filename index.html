@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Sebo do Antônio — livros infantis usados</title>
 <meta name="description" content="Livros infantis usados, conservados e com preço camarada. Escolha, monte sua sacola e finalize pelo WhatsApp.">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
+<link rel="icon" type="image/png" href="mascote-rosto.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
@@ -16,7 +16,7 @@
 <header class="topo">
   <div class="topo-in">
     <a class="marca" href="#">
-      <span class="marca-icone" aria-hidden="true">📚</span>
+      <img class="marca-icone" src="mascote-rosto.png" alt="" width="44" height="44">
       <span class="marca-nome" id="nomeLoja">Sebo do Antônio</span>
     </a>
     <button class="btn-sacola" id="abrirSacola" aria-label="Abrir sacola">
@@ -37,7 +37,11 @@
         <li class="s3">🛵 <a href="#entrega" id="seloEntrega">Retirada ou envio</a></li>
       </ul>
     </div>
-    <img class="hero-img" src="ilustracao.svg" alt="Pilha de livros coloridos com um livro aberto soltando estrelas, sol e arco-íris" width="520" height="440">
+    <div class="hero-arte">
+      <img class="hero-img" src="ilustracao.svg" alt="" width="520" height="440">
+      <img class="mascote" src="mascote.png" alt="Mascote do Sebo do Antônio, um menino sorridente de cabelo cacheado, de braços abertos" width="640" height="702">
+      <p class="balao">Oi! Bora escolher<br>um livro? 📚</p>
+    </div>
   </div>
   <svg class="onda" viewBox="0 0 1440 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0 30c120 25 240 25 360 0s240-25 360 0 240 25 360 0 240-25 360 0v30H0z" fill="currentColor"/></svg>
 </section>
@@ -61,7 +65,7 @@
   </div>
 
   <div class="grade" id="grade"></div>
-  <p class="vazio" id="vazio" hidden>Nenhum livro encontrado. Tente outra busca.</p>
+  <div class="vazio" id="vazio" hidden><img src="mascote-rosto.png" alt="" width="90" height="90"><p>Ih, não achei esse livro.<br>Tenta buscar de outro jeito!</p></div>
 </main>
 
 <section class="como">
@@ -98,7 +102,7 @@
     <button class="fechar" id="fecharSacola" aria-label="Fechar">×</button>
   </div>
   <ul class="sacola-lista" id="sacolaLista"></ul>
-  <p class="sacola-vazia" id="sacolaVazia">Sua sacola está vazia.</p>
+  <div class="sacola-vazia" id="sacolaVazia"><img src="mascote.png" alt="" width="140"><p>Sua sacola está vazia.<br>Que tal escolher um livro?</p></div>
   <div class="sacola-rodape">
     <div class="total"><span>Total</span><strong id="total">R$ 0,00</strong></div>
     <p class="obs" id="obsConsulta" hidden>Livros “a consultar” não entram no total.</p>

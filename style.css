@@ -30,7 +30,7 @@ a{color:var(--coral-2)}
 .topo{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.92);backdrop-filter:blur(8px);border-bottom:3px dashed #f1e4cc}
 .topo-in{max-width:1180px;margin:0 auto;padding:10px 20px;display:flex;align-items:center;justify-content:space-between;gap:12px}
 .marca{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--tinta)}
-.marca-icone{font-size:28px;display:inline-block;transform:rotate(-8deg)}
+.marca-icone{width:44px;height:44px;border-radius:50%;background:var(--sol);border:3px solid #fff;box-shadow:0 2px 6px rgba(45,42,74,.18);object-fit:cover;transform:rotate(-6deg)}
 .marca-nome{font-family:var(--titulo);font-weight:700;font-size:24px;letter-spacing:.005em}
 .marca-nome::first-letter{color:var(--coral)}
 .btn-sacola{display:flex;align-items:center;gap:8px;border:0;background:var(--coral);color:#fff;padding:9px 18px;border-radius:999px;font-family:var(--titulo);font-weight:600;font-size:16px;cursor:pointer;box-shadow:0 4px 0 var(--coral-2);transition:transform .12s,box-shadow .12s}
@@ -52,7 +52,12 @@ a{color:var(--coral-2)}
 .pula span:nth-child(4){color:var(--lilas);--r:7deg;--y:-3px;animation-delay:.6s}
 @keyframes balanca{0%,100%{transform:translateY(var(--y)) rotate(var(--r))}50%{transform:translateY(calc(var(--y) * -1)) rotate(calc(var(--r) * -.6))}}
 .hero p{max-width:520px;margin:0 0 20px;color:var(--tinta-2);font-size:18px}
-.hero-img{width:100%;max-width:520px;justify-self:center;filter:drop-shadow(0 10px 18px rgba(45,42,74,.12))}
+.hero-arte{position:relative;width:100%;max-width:560px;justify-self:center}
+.hero-img{height:auto;width:82%;margin-left:auto;filter:drop-shadow(0 10px 18px rgba(45,42,74,.12))}
+.mascote{height:auto;position:absolute;left:-4%;bottom:-6%;width:46%;filter:drop-shadow(0 8px 10px rgba(45,42,74,.22));transform-origin:50% 100%;animation:oi 4s ease-in-out infinite}
+@keyframes oi{0%,100%{transform:rotate(-2deg)}50%{transform:rotate(2deg) translateY(-4px)}}
+.balao{position:absolute;left:2%;top:-2%;margin:0;background:#fff;color:var(--tinta);font-family:var(--titulo);font-weight:600;font-size:16px;line-height:1.2;padding:10px 14px;border-radius:18px;box-shadow:0 4px 0 rgba(45,42,74,.08);transform:rotate(-4deg)}
+.balao::after{content:"";position:absolute;left:34px;bottom:-12px;border:8px solid transparent;border-top:12px solid #fff;border-bottom:0}
 .selos{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:10px}
 .selos li{background:#fff;padding:7px 14px;border-radius:999px;font-size:14px;font-weight:700;color:var(--tinta);box-shadow:0 3px 0 rgba(45,42,74,.08);border:2px solid}
 .selos .s1{border-color:var(--azul)}.selos .s2{border-color:var(--menta)}.selos .s3{border-color:var(--sol)}
@@ -101,7 +106,10 @@ a{color:var(--coral-2)}
 .btn-quero:active{transform:translateY(2px);box-shadow:0 2px 0 var(--coral-2)}
 .btn-quero.na-sacola{background:#fff;color:var(--menta-2);box-shadow:inset 0 0 0 3px var(--menta),0 4px 0 var(--menta)}
 .btn-quero:disabled{background:var(--linha);color:var(--tinta-2);box-shadow:none;cursor:not-allowed;transform:none}
-.vazio{text-align:center;color:var(--tinta-2);padding:40px 0;font-family:var(--titulo);font-size:18px}
+.vazio{display:grid;justify-items:center;gap:6px;text-align:center;color:var(--tinta-2);padding:30px 0;font-family:var(--titulo);font-size:18px}
+.vazio img{width:90px;height:90px;border-radius:50%;background:var(--sol);object-fit:cover}
+.vazio p{margin:0}
+[hidden]{display:none!important}
 
 /* como comprar */
 .como{max-width:1180px;margin:10px auto 50px;padding:30px 28px;background:#fff;border-radius:28px;box-shadow:var(--sombra);width:calc(100% - 40px)}
@@ -136,7 +144,9 @@ a{color:var(--coral-2)}
 .sacola-lista .t{font-weight:700;font-size:14px;line-height:1.25}
 .sacola-lista .p{font-size:13px;color:var(--menta-2);font-weight:700}
 .remover{border:0;background:none;color:var(--coral-2);cursor:pointer;font-size:13px;font-weight:700;padding:6px}
-.sacola-vazia{padding:30px 20px;color:var(--tinta-2);text-align:center}
+.sacola-vazia{padding:24px 20px;color:var(--tinta-2);text-align:center;display:grid;justify-items:center;gap:8px;font-family:var(--titulo);font-size:17px}
+.sacola-vazia img{width:140px;height:auto}
+.sacola-vazia p{margin:0}
 .sacola-rodape{padding:16px 20px 20px;background:#fff}
 .total{display:flex;justify-content:space-between;align-items:baseline;font-size:18px;margin-bottom:6px;font-family:var(--titulo);font-weight:600}
 .total strong{font-size:26px;color:var(--menta-2)}
@@ -162,7 +172,8 @@ a{color:var(--coral-2)}
 
 @media (max-width:760px){
   .hero-in{grid-template-columns:1fr;padding:22px 20px 60px;text-align:center}
-  .hero-img{order:-1;max-width:260px}
+  .hero-arte{order:-1;max-width:340px}
+  .balao{font-size:13px;padding:7px 10px}
   .hero p{margin-left:auto;margin-right:auto;font-size:16px}
   .selos{justify-content:center}
 }

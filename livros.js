@@ -172,7 +172,7 @@ window.LIVROS = [
   "ilustrador": "David Roberts",
   "editora": "Intrínseca",
   "idade": "4–8 anos",
-  "preco": null,
+  "preco": 18.87,
   "precoNovo": null,
   "vendido": false
  },
@@ -260,7 +260,7 @@ window.LIVROS = [
   "ilustrador": "Clover Robin",
   "editora": "Tiger Tales / edição em português",
   "idade": "3–6 anos",
-  "preco": null,
+  "preco": 28.6,
   "precoNovo": null,
   "vendido": false
  },
@@ -667,7 +667,7 @@ window.LIVROS = [
   "ilustrador": "Aaron Blabey",
   "editora": null,
   "idade": "3–6 anos",
-  "preco": null,
+  "preco": 37.22,
   "precoNovo": null,
   "vendido": false
  },
@@ -887,7 +887,7 @@ window.LIVROS = [
   "ilustrador": "Leonardo Malavazzi",
   "editora": "Pé da Letra",
   "idade": "3–7 anos",
-  "preco": null,
+  "preco": 14.31,
   "precoNovo": null,
   "vendido": false
  },
@@ -898,7 +898,7 @@ window.LIVROS = [
   "ilustrador": "Leonardo Malavazzi",
   "editora": "Pé da Letra",
   "idade": "3–7 anos",
-  "preco": null,
+  "preco": 24.06,
   "precoNovo": null,
   "vendido": false
  },
@@ -931,7 +931,7 @@ window.LIVROS = [
   "ilustrador": null,
   "editora": "Ciranda Cultural",
   "idade": "7–12 anos",
-  "preco": null,
+  "preco": 6.0,
   "precoNovo": null,
   "vendido": false
  },
@@ -942,7 +942,7 @@ window.LIVROS = [
   "ilustrador": "Eve Ferretti",
   "editora": "Panda Books",
   "idade": "2–4 anos",
-  "preco": null,
+  "preco": 8.75,
   "precoNovo": null,
   "vendido": false
  },
@@ -953,7 +953,7 @@ window.LIVROS = [
   "ilustrador": null,
   "editora": "Ática",
   "idade": "6–10 anos",
-  "preco": null,
+  "preco": 6.0,
   "precoNovo": null,
   "vendido": false
  },
@@ -964,7 +964,7 @@ window.LIVROS = [
   "ilustrador": "Michele Iacocca",
   "editora": "Scipione",
   "idade": "3–7 anos",
-  "preco": null,
+  "preco": 6.95,
   "precoNovo": null,
   "vendido": false
  },
@@ -975,7 +975,7 @@ window.LIVROS = [
   "ilustrador": "Polona Lovšin",
   "editora": null,
   "idade": "3–7 anos",
-  "preco": null,
+  "preco": 14.19,
   "precoNovo": null,
   "vendido": false
  },
@@ -997,7 +997,7 @@ window.LIVROS = [
   "ilustrador": null,
   "editora": "Happy Books",
   "idade": "2–5 anos",
-  "preco": null,
+  "preco": 17.05,
   "precoNovo": null,
   "vendido": false
  },
@@ -1019,7 +1019,7 @@ window.LIVROS = [
   "ilustrador": null,
   "editora": null,
   "idade": "3–6 anos",
-  "preco": null,
+  "preco": 7.37,
   "precoNovo": null,
   "vendido": false
  },
@@ -1030,7 +1030,7 @@ window.LIVROS = [
   "ilustrador": "Mauricio de Sousa",
   "editora": "Panini Comics",
   "idade": "6–12 anos",
-  "preco": null,
+  "preco": 45.85,
   "precoNovo": null,
   "vendido": false
  },
@@ -1041,7 +1041,7 @@ window.LIVROS = [
   "ilustrador": "Malgosia Piatkowska",
   "editora": null,
   "idade": "3–8 anos",
-  "preco": null,
+  "preco": 16.46,
   "precoNovo": null,
   "vendido": false
  },
@@ -1052,7 +1052,7 @@ window.LIVROS = [
   "ilustrador": "Spike Gerrell",
   "editora": "Ciranda Cultural",
   "idade": "4–8 anos",
-  "preco": null,
+  "preco": 24.0,
   "precoNovo": null,
   "vendido": false
  },
@@ -1063,7 +1063,7 @@ window.LIVROS = [
   "ilustrador": "Marta Álvarez Miguéns",
   "editora": "Usborne",
   "idade": "3–6 anos",
-  "preco": null,
+  "preco": 26.33,
   "precoNovo": null,
   "vendido": false
  },
@@ -1074,7 +1074,7 @@ window.LIVROS = [
   "ilustrador": null,
   "editora": "Todolivro",
   "idade": "1–4 anos",
-  "preco": null,
+  "preco": 6.0,
   "precoNovo": null,
   "vendido": false
  }

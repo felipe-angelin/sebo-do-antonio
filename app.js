@@ -12,6 +12,7 @@ const $ = (s) => document.querySelector(s);
 const brl = (v) => v.toLocaleString("pt-BR", { style: "currency", currency: "BRL" });
 const semAcento = (s) => (s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
 const idadeMin = (l) => parseInt(l.idade, 10) || 0;
+const corIdade = (l) => { const m = idadeMin(l); return m <= 2 ? "c1" : m <= 5 ? "c2" : m <= 8 ? "c3" : "c4"; };
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
 const FAIXAS = [
@@ -47,7 +48,7 @@ $("#qtdLivros").textContent = livros.filter((l) => !l.vendido).length;
 
 // ---------- filtros ----------
 $("#chipsIdade").innerHTML = FAIXAS.map(
-  (f) => `<button class="chip" data-faixa="${f.id}" aria-pressed="${f.id === estado.faixa}">${f.nome}</button>`
+  (f, i) => `<button class="chip chip-${i}" data-faixa="${f.id}" aria-pressed="${f.id === estado.faixa}">${f.nome}</button>`
 ).join("");
 $("#chipsIdade").addEventListener("click", (e) => {
   const b = e.target.closest("[data-faixa]");
@@ -99,7 +100,7 @@ function render() {
     <article class="card ${l.vendido ? "vendido" : ""}">
       <button class="capa" data-ver="${l.codigo}" aria-label="Ver detalhes de ${esc(l.titulo)}">
         <img src="capas/${l.codigo}.jpg" alt="Capa de ${esc(l.titulo)}" loading="lazy" width="360" height="480">
-        <span class="selo-idade">${esc(l.idade)}</span>
+        <span class="selo-idade ${corIdade(l)}">${esc(l.idade)}</span>
         ${l.vendido ? `<span class="faixa-vendido">VENDIDO</span>` : ""}
       </button>
       <div class="info">

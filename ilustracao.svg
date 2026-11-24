@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 440" role="img" aria-label="Pilha de livros coloridos com um livro aberto soltando estrelas, sol, nuvens e arco-íris">
+  <style>
+    .sol-raios{transform-origin:430px 78px;animation:gira 18s linear infinite}
+    .nuvem1{animation:nuvem 9s ease-in-out infinite alternate}
+    .nuvem2{animation:nuvem 12s ease-in-out infinite alternate-reverse}
+    .estrela{transform-box:fill-box;transform-origin:center;animation:pisca 2.4s ease-in-out infinite}
+    .e2{animation-delay:.6s}.e3{animation-delay:1.2s}.e4{animation-delay:1.8s}
+    .aviao{animation:voa 4s ease-in-out infinite alternate}
+    @keyframes gira{to{transform:rotate(360deg)}}
+    @keyframes nuvem{to{transform:translateX(18px)}}
+    @keyframes pisca{50%{transform:scale(.6) rotate(20deg);opacity:.6}}
+    @keyframes voa{to{transform:translate(8px,-10px) rotate(-3deg)}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+
+  <!-- arco-íris -->
+  <g fill="none" stroke-linecap="round" stroke-width="10">
+    <path d="M30 180a84 84 0 0 1 168 0" stroke="#ff7b6b"/>
+    <path d="M40 180a74 74 0 0 1 148 0" stroke="#ffc94d"/>
+    <path d="M50 180a64 64 0 0 1 128 0" stroke="#6fd3a0"/>
+    <path d="M60 180a54 54 0 0 1 108 0" stroke="#6cb8ff"/>
+    <path d="M70 180a44 44 0 0 1 88 0" stroke="#b18cff"/>
+  </g>
+
+  <!-- sol -->
+  <g class="sol-raios" stroke="#ffb300" stroke-width="7" stroke-linecap="round">
+    <path d="M430 22v14M430 120v14M374 78h14M472 78h14M390 38l10 10M460 108l10 10M390 118l10-10M460 48l10-10"/>
+  </g>
+  <circle cx="430" cy="78" r="30" fill="#ffd23f"/>
+  <circle cx="420" cy="74" r="3.5" fill="#5a3b1a"/><circle cx="440" cy="74" r="3.5" fill="#5a3b1a"/>
+  <path d="M419 86q11 9 22 0" fill="none" stroke="#5a3b1a" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="413" cy="84" r="4" fill="#ff9a8a" opacity=".7"/><circle cx="447" cy="84" r="4" fill="#ff9a8a" opacity=".7"/>
+
+  <!-- nuvens -->
+  <g fill="#fff">
+    <ellipse cx="46" cy="184" rx="34" ry="17"/><ellipse cx="66" cy="174" rx="22" ry="18"/><ellipse cx="24" cy="190" rx="18" ry="11"/>
+    <ellipse cx="186" cy="184" rx="32" ry="16"/><ellipse cx="166" cy="176" rx="20" ry="16"/><ellipse cx="208" cy="190" rx="18" ry="11"/>
+  </g>
+  <g class="nuvem2" fill="#fff" opacity=".95">
+    <ellipse cx="300" cy="40" rx="30" ry="15"/><ellipse cx="322" cy="32" rx="20" ry="16"/>
+  </g>
+
+  <!-- avião de papel -->
+  <path d="M500 250q-40-10-70-48" fill="none" stroke="#9aa7c7" stroke-width="3" stroke-dasharray="2 9" stroke-linecap="round"/>
+  <g class="aviao">
+    <path d="M436 196l-44-4 34 24z" fill="#fff" stroke="#6b7aa6" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M426 216l-4-12-30-12" fill="none" stroke="#6b7aa6" stroke-width="3" stroke-linejoin="round"/>
+  </g>
+
+  <!-- chão -->
+  <ellipse cx="260" cy="420" rx="250" ry="40" fill="#8fdc9e"/>
+  <ellipse cx="260" cy="412" rx="170" ry="16" fill="#6cc784" opacity=".5"/>
+
+  <!-- pilha de livros -->
+  <!-- livro 1 (base) -->
+  <rect x="140" y="350" width="240" height="46" rx="8" fill="#ff7b6b"/>
+  <rect x="140" y="350" width="240" height="10" rx="5" fill="#ff9d90"/>
+  <rect x="150" y="364" width="8" height="24" rx="3" fill="#fff" opacity=".6"/>
+  <rect x="196" y="368" width="130" height="7" rx="3.5" fill="#fff" opacity=".85"/>
+  <rect x="216" y="380" width="90" height="5" rx="2.5" fill="#fff" opacity=".6"/>
+  <rect x="362" y="356" width="14" height="36" rx="3" fill="#fbeee0"/>
+  <!-- livro 2 -->
+  <rect x="164" y="308" width="200" height="42" rx="8" fill="#6cb8ff" transform="rotate(-3 264 329)"/>
+  <rect x="174" y="314" width="6" height="30" rx="3" fill="#fff" opacity=".6" transform="rotate(-3 264 329)"/>
+  <rect x="210" y="322" width="110" height="7" rx="3.5" fill="#fff" opacity=".85" transform="rotate(-3 264 329)"/>
+  <circle cx="300" cy="333" r="5" fill="#ffd23f" transform="rotate(-3 264 329)"/>
+  <!-- livro 3 -->
+  <rect x="152" y="270" width="220" height="40" rx="8" fill="#6fd3a0" transform="rotate(2 262 290)"/>
+  <rect x="164" y="278" width="200" height="6" rx="3" fill="#fff" opacity=".35" transform="rotate(2 262 290)"/>
+  <rect x="204" y="290" width="120" height="7" rx="3.5" fill="#fff" opacity=".85" transform="rotate(2 262 290)"/>
+
+  <!-- livro aberto no topo -->
+  <path d="M262 262c-34-16-74-18-112-8v-6c38-12 80-10 112 6c32-16 74-18 112-6v6c-38-10-78-8-112 8z" fill="#b18cff"/>
+  <path d="M262 254c-30-22-70-26-104-16l-6 18c36-10 76-8 110 8z" fill="#fff" stroke="#e5daf9" stroke-width="2"/>
+  <path d="M262 254c30-22 70-26 104-16l6 18c-36-10-76-8-110 8z" fill="#fff" stroke="#e5daf9" stroke-width="2"/>
+  <g stroke="#d6cbe9" stroke-width="3" stroke-linecap="round">
+    <path d="M178 244q30-8 64 4M182 252q28-6 58 4"/>
+    <path d="M282 248q34-12 64-4M284 256q30-10 58-4"/>
+  </g>
+  <path d="M262 254v12" stroke="#9d78ee" stroke-width="3"/>
+
+  <!-- estrelas e letras saindo do livro -->
+  <path d="M262 240c-10-30 4-60-18-92" fill="none" stroke="#ffc94d" stroke-width="3" stroke-dasharray="1 8" stroke-linecap="round"/>
+  <path d="M262 240c14-26 40-44 40-84" fill="none" stroke="#ff9d90" stroke-width="3" stroke-dasharray="1 8" stroke-linecap="round"/>
+  <g class="estrela" ><path d="M244 128l7 14 15 2-11 10 3 15-14-7-14 7 3-15-11-10 15-2z" fill="#ffd23f" stroke="#f2a900" stroke-width="2" stroke-linejoin="round"/></g>
+  <g class="estrela e2"><path d="M302 136l5 10 11 2-8 7 2 11-10-5-10 5 2-11-8-7 11-2z" fill="#ff7b6b"/></g>
+  <g class="estrela e3"><path d="M196 178l4 8 9 1-7 6 2 9-8-4-8 4 2-9-7-6 9-1z" fill="#6cb8ff"/></g>
+  <g class="estrela e4"><path d="M334 196l4 8 9 1-7 6 2 9-8-4-8 4 2-9-7-6 9-1z" fill="#6fd3a0"/></g>
+  <text x="212" y="226" font-family="Fredoka, Baloo 2, Arial Rounded MT Bold, sans-serif" font-weight="700" font-size="26" fill="#ff7b6b" transform="rotate(-14 212 226)">A</text>
+  <text x="292" y="214" font-family="Fredoka, Baloo 2, Arial Rounded MT Bold, sans-serif" font-weight="700" font-size="24" fill="#6cb8ff" transform="rotate(12 292 214)">b</text>
+  <text x="258" y="196" font-family="Fredoka, Baloo 2, Arial Rounded MT Bold, sans-serif" font-weight="700" font-size="22" fill="#b18cff">c</text>
+
+  <!-- florzinhas -->
+  <g transform="translate(70 392)"><circle r="7" fill="#ff9d90"/><circle cx="0" cy="-9" r="6" fill="#ffd23f"/><circle cx="9" cy="0" r="6" fill="#ffd23f"/><circle cx="0" cy="9" r="6" fill="#ffd23f"/><circle cx="-9" cy="0" r="6" fill="#ffd23f"/><circle r="5" fill="#ff7b6b"/></g>
+  <g transform="translate(450 396)"><circle cx="0" cy="-8" r="5" fill="#b18cff"/><circle cx="8" cy="0" r="5" fill="#b18cff"/><circle cx="0" cy="8" r="5" fill="#b18cff"/><circle cx="-8" cy="0" r="5" fill="#b18cff"/><circle r="4" fill="#ffd23f"/></g>
+  <g transform="translate(110 410)"><circle cx="0" cy="-6" r="4" fill="#6cb8ff"/><circle cx="6" cy="0" r="4" fill="#6cb8ff"/><circle cx="0" cy="6" r="4" fill="#6cb8ff"/><circle cx="-6" cy="0" r="4" fill="#6cb8ff"/><circle r="3" fill="#fff"/></g>
+</svg>

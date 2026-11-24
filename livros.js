@@ -986,7 +986,7 @@ window.LIVROS = [
   "ilustrador": null,
   "editora": "Todolivro",
   "idade": "1–4 anos",
-  "preco": null,
+  "preco": 49.9,
   "precoNovo": null,
   "vendido": false
  },

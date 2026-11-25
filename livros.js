@@ -46,7 +46,7 @@ window.LIVROS = [
   "idade": "7–10 anos",
   "preco": 5,
   "precoNovo": null,
-  "vendido": false,
+  "vendido": true,
   "descricao": "Aventura cheia de monstros e humor do austríaco Thomas Brezina, autor de várias séries de mistério para crianças."
  },
  {
@@ -106,7 +106,7 @@ window.LIVROS = [
   "idade": "6–9 anos",
   "preco": 34.95,
   "precoNovo": 69.9,
-  "vendido": false,
+  "vendido": true,
   "descricao": "Mortina é uma menina zumbi que mora no Palacete Decrépito com a tia e o galgo Tristão. Ela só quer fazer amigos, mas precisa esconder quem é. Primeiro livro da série."
  },
  {
@@ -118,7 +118,7 @@ window.LIVROS = [
   "idade": "6–9 anos",
   "preco": 19.5,
   "precoNovo": 39,
-  "vendido": false,
+  "vendido": true,
   "descricao": "Num dia de chuva, o primo chato da Mortina aparece no palacete dizendo que foi convidado para um jantar surpresa. Depois chegam os amigos dela com a mesma história, e começa um mistério."
  },
  {
@@ -394,7 +394,7 @@ window.LIVROS = [
   "idade": "6–9 anos",
   "preco": 12.5,
   "precoNovo": null,
-  "vendido": false,
+  "vendido": true,
   "descricao": "Clássico de Ruth Rocha sobre um menino que acha os nomes das coisas sem sentido e resolve inventar os seus."
  },
  {
@@ -670,7 +670,7 @@ window.LIVROS = [
   "idade": "7–11 anos",
   "preco": 12.5,
   "precoNovo": null,
-  "vendido": false,
+  "vendido": true,
   "descricao": "Sete histórias com os bichinhos do bosque. Cada uma ensina um hábito, como ser responsável, planejar e ouvir os outros."
  },
  {
@@ -1018,7 +1018,7 @@ window.LIVROS = [
   "idade": "7–12 anos",
   "preco": 6.0,
   "precoNovo": null,
-  "vendido": false,
+  "vendido": true,
   "descricao": "Fatos curiosos sobre o futebol, os craques e as Copas do Mundo."
  },
  {
